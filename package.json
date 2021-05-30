@@ -1,0 +1,33 @@
+{
+  "name": "template-typescript-minimal",
+  "description": "Template for all reproduction project using typescript",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "author": "Harry Tran <nhattq.coding@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "make git-hook"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2",
+    "esno": "^0.6.0"
+  },
+  "engines": {
+    "node": ">=14.15.4",
+    "npm": ">= 7.0.15"
+  },
+  "repository": "https://github.com/harrytran998/template-typescript.git",
+  "bugs": {
+    "url": "https://github.com/harrytran998/template-typescript/issues"
+  },
+  "funding": [
+    {
+      "type": "ko-fi",
+      "url": "https://ko-fi.com/harrytran998"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/harrytran998"
+    }
+  ]
+}
